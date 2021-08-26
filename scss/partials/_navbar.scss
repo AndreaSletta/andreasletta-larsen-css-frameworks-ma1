@@ -1,0 +1,33 @@
+.active {
+  color: $hot-pink !important;
+}
+
+.collapse {
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 767.98px) {
+  .navbar {
+    position: absolute !important;
+    width: 100%;
+    top: 0;
+  }
+  #navbarNav {
+    padding: 20px 0;
+  }
+
+  .nav-item {
+    padding: 5px 0;
+  }
+
+  button {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none;
+  }
+
+  .navbar-light .navbar-toggler {
+    box-shadow: none !important;
+    color: black;
+  }
+}

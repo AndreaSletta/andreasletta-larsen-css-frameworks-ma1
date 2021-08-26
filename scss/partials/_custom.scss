@@ -1,3 +1,14 @@
 $primary: #f4f3ee;
-
+$hot-pink: #c32c72;
 $link-color: black;
+$bg-body: #e5e5e5;
+$gray-600: #8d8d8d;
+
+$secondary: $hot-pink;
+
+$enable-grid-classes: false;
+$enable-cssgrid: true;
+
+$grid-columns: 12 !default;
+$grid-gutter-width: 1.5rem !default;
+$grid-row-columns: 6 !default;
